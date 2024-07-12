@@ -33,3 +33,12 @@ body, #canvas-container * {
         height: 215px
     }   
 }
+
+a {
+    color: #09f;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #f09;
+}
