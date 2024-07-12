@@ -12,13 +12,14 @@ export var App = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: 20,
-        boxSizing: 'border-box',
-        margin: '0 auto',
+        margin: 0,
+        padding: 0,
       }}
     >
       <div
         style={{
+          boxSizing: 'border-box',
+          padding: 20,
           maxWidth: 450,
           display: 'flex',
           alignItems: 'center',
