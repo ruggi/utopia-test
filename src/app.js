@@ -25,6 +25,8 @@ export var App = () => {
           justifyContent: 'center',
           flexDirection: 'column',
           gap: 40,
+          borderRadius: 0,
+          padding: 20,
         }}
       >
         <div
