@@ -24,7 +24,7 @@ export var App = () => {
           alignItems: 'center',
           justifyContent: 'center',
           flexDirection: 'column',
-          gap: 60,
+          gap: 40,
         }}
       >
         <div
@@ -34,7 +34,7 @@ export var App = () => {
             height: 'max-content',
             display: 'flex',
             flexDirection: 'column',
-            gap: 20,
+            gap: 30,
             alignItems: 'center',
             justifyContent: 'flex-start',
           }}
@@ -77,11 +77,12 @@ export var App = () => {
             wordBreak: 'break-word',
             contain: 'layout',
             width: 'max-content',
-            fontWeight: 'bold',
+            fontWeight: 900,
             fontFamily: 'Inter',
             fontStyle: 'normal',
             fontSize: '3em',
             height: 'max-content',
+            color: 'rgb(17, 17, 17, 1)',
           }}
         >
           Federico Ruggi
@@ -92,7 +93,7 @@ export var App = () => {
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'flex-start',
-            gap: 20,
+            gap: 10,
             textAlign: 'center',
             width: '100%',
             lineHeight: '1.7em',
