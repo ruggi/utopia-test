@@ -1,6 +1,5 @@
 import * as React from 'react'
 import './globals.css'
-import { FlexCol } from './utils'
 import * as Lucide from 'lucide-react'
 
 export var App = () => {
@@ -14,6 +13,8 @@ export var App = () => {
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
+        padding: 20,
+        boxSizing: "border-box"
       }}
     >
       <div
@@ -26,7 +27,6 @@ export var App = () => {
           flexDirection: 'column',
           gap: 40,
           borderRadius: 0,
-          padding: 20,
         }}
       >
         <div
