@@ -12,21 +12,19 @@ export var App = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        flexDirection: 'column',
         padding: 20,
-        boxSizing: "border-box"
+        boxSizing: 'border-box',
+        margin: '0 auto',
       }}
     >
       <div
         style={{
-          width: '100%',
           maxWidth: 450,
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           flexDirection: 'column',
           gap: 40,
-          borderRadius: 0,
         }}
       >
         <div
