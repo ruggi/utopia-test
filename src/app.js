@@ -19,7 +19,7 @@ export var App = () => {
     >
       <img
         data-aspect-ratio-locked
-        src='./assets/me-ia-small.png'
+        src='./me-ia-small.png'
         style={{
           width: 100,
           height: 100,
